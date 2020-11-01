@@ -5,9 +5,10 @@
 </head>
 <body>
 <?php
-//using two forward slashes we create comments in php.
-//within the php tag we can insert values into your html.
-echo "<h1>welcome!</h1>";
+$name="PHP Store";
+$credit=1000;
+echo "<h1>Welcome to ".$name."!</h1>";
+echo "<h2>You have ".$credit." in your wallet.</h2>";
 ?>
 </body>
 </html>
