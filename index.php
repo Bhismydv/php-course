@@ -13,8 +13,9 @@ $products['Computer']=750;
 $products['Car']=150000;
 $products['iPhone']=1000;
 $products['Toaster']=75;
-
-echo "<p>A computer costs $".$products['Computer']."</p>"
+foreach($products as $key => $value){
+echo "<p>The ".$key." costs ".$value."</p>";
+}
 ?>
 </body>
 </html>
